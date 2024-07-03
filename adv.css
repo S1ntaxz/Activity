@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f28b82;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.advanced-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+}
+
+.advanced-field label {
+    width: 250px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+}
+
+.advanced-field input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background-color: blue;
+}
+
+.footer {
+    text-align: left;
+    padding: 20px 0;
+    background-color: #111;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin: 0;
+    color: #fff;
+}
+
+.footer a {
+    color: #1a0dab;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

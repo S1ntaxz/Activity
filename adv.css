@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin: 20px 20px 20px 0; /* Adjusted margin to align container to the left */
+    background-color: #111;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f28b82;
+}
+
+h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    color: #fff;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: calc(50% - 220px); /* Adjusted width for uniformity */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-group.double-input label {
+    display: inline-block;
+    width: auto; /* Adjusted to fit content */
+    vertical-align: top;
+    color: #fff;
+    margin-right: 10px; /* Added margin between labels */
+}
+
+.form-group.double-input input[type="text"] {
+    width: calc(15% - 10px); /* Adjusted width and added margin */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: #333;
+    color: #fff;
+    margin-right: 10px; /* Added margin between input fields */
+}
+
+.form-group input[type="submit"] {
+    background-color: #8ab4f8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    vertical-align: top; /* Align button with input fields */
+    margin-top: 8px; /* Adjust vertical alignment */
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #679cd4; /* Adjust hover color */
+}
+
+.info-group {
+    margin-bottom: 15px;
+}
+
+.info-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #111;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+.footer p {
+    margin: 0;
+    color: #fff;
+}
+
+.footer a {
+    color: #1a0dab;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
